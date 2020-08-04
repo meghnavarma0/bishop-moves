@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.grid {
+  /* border: 1px solid black;
+  
+  height: 500px;
+  width: 500px; */
+  margin: auto;
+  margin-top: 20px;
+}
+.sub-grid {
+  border: 1px solid gray;
+  height: 50px;
+  width: 50px;
+  margin: 0px;
+  padding: 0px;
+
+  /* background-color: yellow; */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 50px;
+  margin: 0px;
+  padding: 0px;
+  /* border: 3px solid pink; */
+}
+
+.white {
+  background-color: #fff;
+}
+.black {
+  background-color: #000000;
+}
+.red {
+  background-color: red;
+}
