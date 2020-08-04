@@ -1,8 +1,8 @@
 import "./styles.css";
 
 let grid = document.querySelector(".grid");
-let no_of_rows = 10,
-  no_of_cols = 10;
+let no_of_rows = 8,
+  no_of_cols = 8;
 
 for (let i = 0; i < no_of_rows; i++) {
   let row = document.createElement("div");
